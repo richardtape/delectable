@@ -1,0 +1,163 @@
+/* 
+
+Richard Tape
+http://iamfriendly.com/
+http://twitter.com/iamfriendly
+
+HTML5 CSS Reset by Rich Clark (http://richclarkdesign.com/) and modified slightly by me
+Minified it, too
+
+*/
+
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;}body{line-height:1.6;}article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary{display:block;}ol,ul{list-style:none;}blockquote,q{quotes:none;}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}a{margin:0;padding:0;border:0;font-size:100%;vertical-align:baseline;background:transparent;}ins{background-color:#ff9;color:#000;text-decoration:none;}mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold;}del{text-decoration: line-through;}abbr[title],dfn[title]{border-bottom:1px dotted #000;cursor:help;}table{border-collapse:collapse;border-spacing:0;}hr{display:block;height:1px;border:0;border-top:1px solid #cccccc;margin:1em 0;padding:0;}input,select{vertical-align:middle;}a img{border: none;}
+
+html
+{
+	background-color: #F9F9F9;
+}
+
+#options_wrapper
+{
+	width: 600px;
+	margin: 30px auto;
+}
+
+#options_wrapper p
+{
+	font-size: 13px;
+	font-style: italic;
+	font-family: "Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif;
+	color: #666;
+}
+
+#opening_help
+{
+	font-size: 11px;
+	margin-bottom: 30px;
+}
+
+small
+{
+	font-size: 10px;
+}
+
+em
+{
+	color: black;
+}
+
+h1
+{
+	font: italic normal normal 24px/29px Georgia,"Times New Roman","Bitstream Charter",Times,serif;
+	margin: 0 0 30px 0;
+	padding: 14px 15px 3px 0;
+	line-height: 35px;
+	text-shadow: rgba(255, 255, 255, 1) 0 1px 0;
+	color: #464646;
+}
+
+label
+{
+	color: rgb(140,140,140);
+	font-size: 12px;
+	display: block;
+	font-style: italic;
+}
+
+input[type="text"], input[type="password"]
+{
+	padding: 3px 4px;
+	border-width: 1px;
+	border-style: solid;
+	-moz-border-radius: 6px;
+	-khtml-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	font-size: 1.9em;
+	line-height: 100%;
+	width: 100%;
+	outline: none;
+	font-family: "Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif;
+	color: #A9A9A9;
+	margin-bottom: 30px;
+}
+
+button
+{
+	display: block;
+	clear: both;
+	font-weight: bold;
+	color: white;
+	text-shadow: rgba(0, 0, 0, 0.3) 0 -1px 0;
+	background-image: -webkit-gradient(
+	    linear,
+	    left bottom,
+	    left top,
+	    color-stop(0.47, #28779C),
+	    color-stop(0.72, #298CBA)
+	);
+	border: 1px solid #298CBA !important;
+	line-height: 13px;
+	padding: 3px 8px;
+	cursor: pointer;
+	border-width: 1px;
+	border-style: solid;
+	-webkit-border-radius: 11px;
+	border-radius: 11px;
+	-webkit-box-sizing: content-box;
+	box-sizing: content-box;
+	margin-top: 30px;
+}
+
+#advanced_options_link
+{
+	text-align: right;
+}
+
+#advanced_options_link a
+{
+	font: normal 11px/18px "Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif;
+	color: #21759B;
+	text-decoration: none;
+}
+
+#advanced_options_link a:hover
+{
+	color: black;
+}
+
+#advanced_options_link a:active
+{
+	position: relative;
+	top: 1px;
+}
+
+#category_name, #post_type
+{
+	margin-bottom: 5px !important;
+}
+
+.input_info
+{
+	margin-bottom: 30px;
+}
+
+#status
+{
+	padding: 10px;
+	background: #FFE0E0;
+	border: 1px solid #FF5959;
+	display: none;
+	margin-bottom: 20px;
+	font-family: "Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif;
+	color: #333;
+	font-size: 12px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.success_message
+{
+	border: 1px solid #E6DB55 !important;
+	background: #FFFFE0 !important;
+}
