@@ -41,6 +41,8 @@ need to find the folder, not any particular file.
 WordPress settings setup
 ------------------------
 
+XML-RPC functionality is turned on by default since WordPress 3.5. For previous versions, read below:
+
 By default, WordPress disables XML-RPC and atom publishing. This means that, for this extension to work,
 we'll need to enable it. To do so:
 
