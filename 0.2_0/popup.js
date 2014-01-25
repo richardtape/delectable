@@ -1,3 +1,26 @@
+//Moved from popup.html
+
+$(function(){
+	$('#schedule_date_time').datetime({ format: "yy-mm-dd'T'hh:ii" });	
+	$('#schedule').slideUp();	
+	$('.schedule_link').click(function(){	
+		$('#schedule').slideToggle();	
+	});
+	
+	chrome.tabs.getSelected(null,function(tab) {	
+		if(tab.title){
+	    	var tabtitle = tab.title;
+	    }else{
+	    	var tabtitle = "";
+	    }
+	    if(tabtitle != ""){
+	    	$('#post_title').attr("value",tabtitle);
+	    }	
+	});
+	
+});
+
+
 $(function() {
 	
 	$('#go_add_link').click(function(){

@@ -1,3 +1,11 @@
+//Adding event handlers to enable the stripping of inline scripts from the html
+document.addEventListener('DOMContentLoaded', function () {
+	restore_options();
+	//restore options is working; I'm setting options directly in the db via Resources / Local Storage tab in Dev Tools
+	document.getElementById("button").addEventListener('click', save_options);
+});
+
+
 // Saves options to localStorage.
 function save_options(){
   
@@ -99,5 +107,26 @@ $(function() {
 		return false;
 	
 	});
+
+
+$(function(){
+			
+		//Moved from options.html to adhere to new security rules
+		$('#endpoint').blur(function(){
+			
+			var endpoint_url = $('#endpoint').val();
+				
+			if(!endpoint_url.match(/\/xmlrpc\.php$/)){
+				$('#endpoint').css("border-color","red");
+			}else{
+				$('#endpoint').css("border-color","#A9A9A9");
+			}
+			
+		});
+			
+	});
+
+
+
 
 });
