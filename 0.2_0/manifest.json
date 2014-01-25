@@ -1,14 +1,15 @@
 {
-  "manifest_version": 2,
-   "browser_action": {
-      "default_icon": "icon.png",
-      "default_popup": "popup.html"
-   },
-   "description": "Save links to useful websites you find directly to your hosted WordPress blog.",
-   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC3f20tyhFS+A/gpI+E0ePgMsuThYEhFyAgL4B1ow5V/++XhfVBdNfMhxNQhxN3dl/N9Dy8CPTIAt3AsujUr59Scgt9/WpO+6NC9iu3KVs01XCJ+F/8eia2riIblhFlaFUSEXCbGp8uWAuwbGQTSp4s6lBkesA2jiKdtBklcEWVCQIDAQAB",
-   "name": "Delectable",
-   "options_page": "options.html",
-   "permissions": [ "tabs", "http://*/*", "https://*/*" ],
-   "update_url": "http://clients2.google.com/service/update2/crx",
-   "version": "0.2"
+	"manifest_version": 2,
+	"name": "Delectable",
+	"description": "Save links to useful websites you find directly to your hosted WordPress blog.",
+	"version": "0.2",
+   	"key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC3f20tyhFS+A/gpI+E0ePgMsuThYEhFyAgL4B1ow5V/++XhfVBdNfMhxNQhxN3dl/N9Dy8CPTIAt3AsujUr59Scgt9/WpO+6NC9iu3KVs01XCJ+F/8eia2riIblhFlaFUSEXCbGp8uWAuwbGQTSp4s6lBkesA2jiKdtBklcEWVCQIDAQAB",
+	"options_page": "options.html",
+	"permissions": [ "tabs", "http://*/*", "https://*/*" ],
+	"update_url": "http://clients2.google.com/service/update2/crx",
+	"browser_action": {
+		"default_title": "Publish saved links to your blog",
+		"default_icon": "icon.png",
+		"default_popup": "popup.html"
+   }
 }

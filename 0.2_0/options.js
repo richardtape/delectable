@@ -2,7 +2,7 @@
 document.addEventListener('DOMContentLoaded', function () {
 	restore_options();
 	//restore options is working; I'm setting options directly in the db via Resources / Local Storage tab in Dev Tools
-	document.querySelector('button').addEventListener('click', save_options());
+	document.getElementById("button").addEventListener('click', save_options);
 });
 
 
